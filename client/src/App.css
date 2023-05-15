@@ -1,0 +1,146 @@
+@media (min-width: 481px) and (max-width: 1440px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .bg1 {
+        position: absolute;
+        width: 311px;
+        height: 311px;
+        left: -150px;
+        top: 261px;
+        z-index: -1;
+
+        background: #961A1A;
+        opacity: 0.5;
+        filter: blur(196px);
+    }
+
+    .bg2 {
+        position: absolute;
+        width: 259px;
+        height: 259px;
+        left: 652px;
+        top: -154px;
+        z-index: -1;
+
+        background: #833AB4;
+        opacity: 0.5;
+        filter: blur(196px);
+    }
+
+    .figure1 {
+        position: absolute;
+        width: 83px;
+        height: 83px;
+        left: 549px;
+        top: 93px;
+        border-radius: 100px;
+        z-index: -1;
+
+        background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+        box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+        backdrop-filter: blur(2px);
+    }
+    .figure2 {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        left: 868px;
+        top: -2px;
+        border-radius: 100px;
+        z-index: -1;
+
+        background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+        box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+        filter: blur(5px);
+        backdrop-filter: blur(2px);
+    }
+
+    .figure3 {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 851px;
+        top: 507px;
+        border-radius: 100px;
+        z-index: -1;
+
+        background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.48) 0%, rgba(212, 93, 93, 0.248) 59.67%, rgba(167, 49, 49, 0.264) 78.59%, rgba(130, 25, 25, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+        box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+        filter: blur(2.5px);
+        backdrop-filter: blur(2px); 
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: none; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bg1 {
+        position: absolute;
+        width: 211px;
+        height: 210px;
+        left: -55px;
+        top: 241px;
+        z-index: -1;
+        
+        background: #961A1A;
+        opacity: 0.5;
+        filter: blur(196px);
+
+    }
+
+    .bg2 {
+        position: absolute;
+        width: 259px;
+        height: 259px;
+        left: 258px;
+        top: 107px;
+        z-index: -1;
+
+        background: #833AB4;
+        opacity: 0.5;
+        filter: blur(196px);
+    }
+
+    .figure1 {
+        position: absolute;
+        width: 43px;
+        height: 43px;
+        left: 29px;
+        top: 452px;
+        border-radius: 100px;
+        z-index: -1;
+
+        background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+        box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+        filter: blur(5px);
+        backdrop-filter: blur(2px);
+    }
+    .figure2 {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 286px;
+        top: 236px;
+        border-radius: 100px;
+        z-index: -1;
+        
+        background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+        box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+        filter: blur(5px);
+        backdrop-filter: blur(2px);
+    }
+
+    .figure3 {
+        display: none;
+    }
+}

@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Montserrat:wght@300;400&display=swap');
+
+@media (min-width: 481px) and (max-width: 1440px) {
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #E4E5EA;
+}
+.footerItem1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 124px;
+    margin-right: 48px;
+    padding: 0;
+}
+
+.footerCompany {
+    margin: 0;
+    margin-bottom: 10px;
+    margin-right: 93px;
+    list-style-type: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #656566;
+}
+
+.companyItem {
+    margin: 0;
+    margin-top: 10px;   
+    width: 100%;
+    list-style-type: none;
+}
+
+.footerItem2 {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0;
+    margin-left: 48px;
+    margin-top: 124px;
+}
+.footerMenu  {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-right: 356px;
+    list-style-type: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #656566;
+}
+
+.menuItems {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 150px;
+    padding: 0;
+}
+.menuItem {
+    margin: 0;
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    list-style-type: none;
+
+    color: #E4E5EA;
+}
+
+.footerItem3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 124px;
+    margin-left: 98px;
+    padding: 0;
+}
+
+.footerContacts{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    margin-bottom: 10px;
+    list-style-type: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #656566;
+}
+
+.contactsTel {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    list-style-type: none;
+
+    color: #E4E5EA;
+}
+
+.contactsItem {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 14px;
+}
+
+.contactsAdd {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    list-style-type: none;
+
+    color: #E4E5EA;
+}
+
+.contactsInfo1 {
+    margin: 0;
+    margin-top: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    list-style-type: none;
+
+    color: #E4E5EA;
+}
+
+.contactsInfo2 {
+    margin: 0;
+    margin-top: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: underline;
+    list-style-type: none;
+
+    color: #E4E5EA;
+}
+}
+
+@media (max-width: 480px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 55px;
+        background-color: black;
+    }
+
+    .link {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        text-decoration: none;
+        color: #E4E5EA;
+    }
+
+    .footerItem1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 45px;
+        padding: 0;
+    }
+    .footerCompany {
+        margin: 0;
+        margin-bottom: 10px;
+        margin-left: 16px;
+        list-style-type: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 17px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+    
+        color: #656566;
+    }
+
+    .companyItem {
+        margin: 0;
+        margin-top: 10px;
+        margin-left: 15px;
+        margin-right: 49px;
+        list-style-type: none;
+    }
+
+    .footerItem2 {
+        display: flex;
+        margin: 0;
+        flex-flow: column wrap;
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .footerMenu  {
+        margin: 0;
+        margin-bottom: 10px;
+        margin-left: 16px;
+        list-style-type: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 17px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+    
+        color: #656566;
+    }
+    
+    .menuItems {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 180px;
+        padding: 0;
+        margin-left: 15px;
+    }
+
+    .menuItem {
+        margin: 0;
+        width: 125px;
+        margin-top: 10px;
+    }
+
+    .footerItem3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 15px;
+        padding: 0;
+    }
+    
+    .footerContacts {
+        margin: 0;
+        list-style-type: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 17px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+    
+        color: #656566;
+    }
+
+    .contactsTel {
+        margin: 0;
+        margin-top: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        list-style-type: none;
+    
+        color: #E4E5EA;
+    }
+
+    .icons {
+        margin-top: 12px;
+    }
+    .contactsItem {
+        margin: 0;
+        margin-right: 14px;
+    }
+
+    .contactsAdd {
+        margin: 0;
+        margin-top: 12px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        list-style-type: none;
+    
+        color: #E4E5EA;
+    }
+
+    .contactsInfo1 {
+        margin: 0;
+        margin-top: 50px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        list-style-type: none;
+    
+        color: #E4E5EA;
+    }
+    
+    .contactsInfo2 {
+        margin: 0;
+        margin-top: 5px;
+        margin-bottom: 50px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        text-decoration: underline;
+        list-style-type: none;
+    
+        color: #E4E5EA;
+    }
+
+
+}
